@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lora", serif;
+}
+body{
+    background-color: rgb(11, 113, 86);
+}
+#head{
+    font-family: "Archivo Black", sans-serif; 
+    text-align: center; 
+    
+    color: rgba(255, 255, 255, 0.942);
+}
+i{
+    margin: 10px;
+    
+    
+}
+header{
+    position: sticky;
+}
+.roww{
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(11, 113, 86);
+}
+.info{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: x-large;
+    color: white;
+    
+    
+}
+
+
+
+#search{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+}
+#searchb{
+    height: 40px;
+    width: 60px;
+}
+
+.clss{
+    margin: 5px;
+    width: 350px;
+}
+button{
+    margin-right: 20px;
+}
+.bgimg{
+    background-image: url("https://img.bookchor.com/web_banners/2024060872425.webp");
+    background-size: 100% 800px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    width: 300px;
+    height: 400px;
+    margin-top: 250px;
+    margin-left: 40px;
+    
+}
+#buy{
+    margin-left: 30%;
+    margin-top: 100%;
+    width: 100px;
+    height: 50px;
+    border-radius: 5%;
+    box-shadow: 3px 2px 3px 3px rgba(55, 39, 9, 0.463);
+    color: rgb(5, 74, 55);
+}
+#buy:hover{
+    background-color: black;
+    color: rgb(23, 241, 183);
+}
+#topreads{
+    color: black;
+    text-align: left;
+    margin-left: 100px;
+    font-size: xx-large;
+    
+    
+}
+.row{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 30px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.colm{
+    width: 300px;
+    height: 450px;
+    background-color: rgba(255, 179, 0, 0.63);
+    border-radius: 15px;
+    margin: 10px;
+    border: 4px outset;
+}
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left:15% ;
+    margin-top: 10px;
+    box-shadow: 4px 4px 5px rgba(205, 205, 200, 0.54);
+}
+#caption{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+}
+p{
+    text-align: center;
+    font-size: larger;
+}
+.checked{
+    color: orange;
+}
+#subhead{
+    color: black;
+    text-align: left;
+    margin-left: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.hrstrip{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(11, 113, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coll{
+    /* background-color: blueviolet; */
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 60px;
+}
+.foot{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.colu{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    background-color: rgba(93, 19, 19, 0);
+    border: rgba(220, 220, 220, 0);
+    
+}
+caption{
+    font-size: xx-large;
+    margin: 10px;
+    
+}
+.colu img{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    
+}
+.colu>h4{
+    text-align: center;
+    font-size: xx-large;
+}
+.colu p{
+    text-align: center;
+    font-size: x-large;
+}
+#ft{
+    margin-top: 20px;
+}
+#rights{
+    background-color: rgb(11, 113, 86);
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cls{
+    width: 50px;
+    margin: 20px;
+}
+section{
+    background-color: rgb(255, 255, 255);
+}
